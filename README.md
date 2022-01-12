@@ -2,11 +2,7 @@
 
 Conditional Generative Adversarial Networks (CGANs) are diversely utilized for data synthesis in applied sciences and natural image tasks. Conditional generative models extend upon data generation to account for labelled data by estimating joint distributions of samples and labels. We present a family of modified CGANs which leverage cycles between prior and data spaces to improve upon baselines for natural image synthesis and natural image classification with three primary contributions. 
 
-
 ![results table](imgs/fid_fjd.png)
-
-
-
 
 - An ablation study proposing three novel architectures for conditional data generation which demonstrate improvement on baseline generation quality for a natural image dataset as well as increasingly small subsets across multiple generative metrics.
 
@@ -16,8 +12,8 @@ Conditional Generative Adversarial Networks (CGANs) are diversely utilized for d
 
 The alterations to include cycles in conditional generators demonstrate improvements to comparable baseline CGANs across a variety of established and proposed metrics. Additional experiments demonstrate the successes of inducing cycles in conditional GANs for both image synthesis and image classification over comparable models.
 
-![imageLeft](imgs/self_sup.png)  |  ![imageRight](imgs/top1_pred.png)
-
+![imageLeft](imgs/self_sup.png)
+![imageRight](imgs/top1_pred.png)
 
 ## Novelty
 We induce cycles for conditional generators by lending from [CycleGAN](https://arxiv.org/abs/1703.10593) to move samples between labelled latent and data spaces such that the generative quality and supervised learning ability of the resulting model is improved.
