@@ -30,14 +30,3 @@ Conditional Autoencoder-GAN             |  Cycle Conditional Autoencoder-GAN
 * CIFAR-10: https://www.cs.toronto.edu/~kriz/cifar.html
 - 60,000 32x32 color images in 10 classes
 
-## Results
-
-
-## Challenges
-- Image variance in scale and resolution
-- Inter- and intra-class variance
-- Multiple objects within scenes
-- High number of classes
-- Resizing dataset reduces discriminability
-- Class overlap in style and content
-
