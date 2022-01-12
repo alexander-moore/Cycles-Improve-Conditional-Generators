@@ -4,7 +4,7 @@ Conditional Generative Adversarial Networks (CGANs) are diversely utilized for d
 
 ![results table](imgs/fid_fjd.png)
 
-- An ablation study proposing three novel architectures for conditional data generation which demonstrate improvement on baseline generation quality for a natural image dataset as well as increasingly small subsets across multiple generative metrics.
+- An ablation study on synthesis of [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) proposing three novel architectures for conditional data generation which demonstrate improvement on baseline generation quality for a natural image dataset as well as increasingly small subsets across multiple generative metrics.
 
 - A novel approach to structure latent representations by learning a paired structured condition space and weakly structured variation space with desirable sampling and supervised learning properties. 
 
@@ -23,7 +23,4 @@ Conditional Autoencoder-GAN             |  Cycle Conditional Autoencoder-GAN
 :-------------------------:|:-------------------------:
 ![imageLeft](imgs/CAEGAN_annot.png)  |  ![imageRight](imgs/CCAEGAN_annot.png)
 
-## Data Sets
-* CIFAR-10: https://www.cs.toronto.edu/~kriz/cifar.html
-- 60,000 32x32 color images in 10 classes
 
