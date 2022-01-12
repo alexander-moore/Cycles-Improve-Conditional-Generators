@@ -17,7 +17,7 @@ The alterations to include cycles in conditional generators demonstrate improvem
 ![imageLeft](imgs/self_sup.png)
 
 ## Novelty
-We induce cycles for conditional generators by lending from [CycleGAN](https://arxiv.org/abs/1703.10593) to move samples between labelled latent and data spaces such that the generative quality and supervised learning ability of the resulting model is improved.
+We induce cycles for conditional generators to move samples between labelled latent and data spaces such that the generative quality and supervised learning ability of the resulting model is improved.
 
 Conditional Autoencoder-GAN             |  Cycle Conditional Autoencoder-GAN
 :-------------------------:|:-------------------------:
