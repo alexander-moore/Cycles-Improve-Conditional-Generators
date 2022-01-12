@@ -12,6 +12,8 @@ Conditional Generative Adversarial Networks (CGANs) are diversely utilized for d
 
 The alterations to include cycles in conditional generators demonstrate improvements to comparable baseline CGANs across a variety of established and proposed metrics. Additional experiments demonstrate the successes of inducing cycles in conditional GANs for both image synthesis and image classification over comparable models.
 
+![imageLeft](imgs/aug_table.png)
+
 ![imageLeft](imgs/self_sup.png)
 
 ## Novelty
