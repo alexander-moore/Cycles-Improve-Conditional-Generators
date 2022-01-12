@@ -5,9 +5,7 @@ Conditional Generative Adversarial Networks (CGANs) are diversely utilized for d
 
 ![results table](imgs/fid_fjd.png)
 
-CNN with augmentation outperforms CNN and MAML             |  MAML behaves like augmented CNN
-:-------------------------:|:-------------------------:
-![imageLeft](imgs/self_sup.png)  |  ![imageRight](imgs/top1_pred.png)
+
 
 
 - An ablation study proposing three novel architectures for conditional data generation which demonstrate improvement on baseline generation quality for a natural image dataset as well as increasingly small subsets across multiple generative metrics.
@@ -18,7 +16,7 @@ CNN with augmentation outperforms CNN and MAML             |  MAML behaves like 
 
 The alterations to include cycles in conditional generators demonstrate improvements to comparable baseline CGANs across a variety of established and proposed metrics. Additional experiments demonstrate the successes of inducing cycles in conditional GANs for both image synthesis and image classification over comparable models.
 
-
+![imageLeft](imgs/self_sup.png)  |  ![imageRight](imgs/top1_pred.png)
 
 
 ## Novelty
