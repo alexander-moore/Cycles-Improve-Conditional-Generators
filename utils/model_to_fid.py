@@ -7,8 +7,8 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from torchvision.datasets import CIFAR10
 
-from fjd.fjd_metric import FJDMetric
-from fjd.embeddings import OneHotEmbedding, InceptionEmbedding
+from fjd_master.fjd_metric import FJDMetric
+from fjd_master.embeddings import OneHotEmbedding, InceptionEmbedding
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 audit = False
